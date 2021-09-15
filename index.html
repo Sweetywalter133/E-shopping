@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="front.css" />
+    <title>E-Shopping</title>
+  </head>
+
+  <body>
+    <div class="grid-container">
+      <header class="header">
+        <div class="brand">
+          <button onclick="openMenu()">
+            &#9776;
+          </button>
+          <a href="index.html">E-shopping Cart</a>
+        </div>
+        <div class="header-links">
+          <a href="cart.html">Cart</a>
+          <a href="signin.html">Sign In</a>
+        </div>
+      </header>
+      <aside class="sidebar">
+        <h3>Shopping Categories</h3>
+        <button class="sidebar-close-button" onclick="closeMenu()">x</button>
+        <ul>
+          <li>
+            <a href="index.html">Kurtis</a>
+          </li>
+
+          <li>
+            <a href="index.html">Sarees</a>
+          </li>
+        </ul>
+      </aside>
+      <main class="main">
+        <div class="content">
+          <ul class="products">
+            <li>
+              <div class="product">
+                <img
+                  class="product-image"
+                  src="images/kurti.jpg"
+                  alt="product"
+                />
+                <div class="product-name">
+                  <a href="product.html"> Cotten kurti</a>
+                </div>
+                <div class="product-brand">Biba</div>
+                <div class="product-price">$40</div>
+                <div class="product-rating">4.0 Stars (50 Reviews)</div>
+              </div>
+            </li>
+            <li>
+              <div class="product">
+                <img
+                  class="product-image"
+                  src="images/saree.jpg"
+                  alt="product"
+                />
+                <div class="product-name">
+                  <a href="product.html">Silk Saree</a>
+                </div>
+                <div class="product-brand">Bharatsthali Sarees.</div>
+
+                <div class="product-price">$70</div>
+                <div class="product-rating">4.5 Stars (10 Reviews)</div>
+              </div>
+            </li>
+            <li>
+              <div class="product">
+                <img
+                  class="product-image"
+                  src="images/kurti1.jpg"
+                  alt="product"
+                />
+                <div class="product-name">
+                  <a href="product.html">Printed Kurti</a>
+                </div>
+                <div class="product-brand">W</div>
+                <div class="product-price">$70</div>
+                <div class="product-rating">4.5 Stars (80 Reviews)</div>
+              </div>
+            </li>
+            <li>
+              <div class="product">
+                <img
+                  class="product-image"
+                  src="images/saree1.jpg"
+                  alt="product"
+                />
+                <div class="product-name">
+                  <a href="product.html"> Cotton Saree</a>
+                </div>
+                <div class="product-brand">Satya Paul Saree</div>
+                <div class="product-price">$150</div>
+                <div class="product-rating">4.0 Stars (150 Reviews)</div>
+              </div>
+            </li>
+            <li>
+              <div class="product">
+                <img
+                  class="product-image"
+                  src="images/saree3.jpg"
+                  alt="product"
+                />
+                <div class="product-name">
+                  <a href="product.html">Banarsi Saree</a>
+                </div>
+                <div class="product-brand">Kalanjali Sarees</div>
+                <div class="product-price">$120</div>
+                <div class="product-rating">4.0 Stars (100 Reviews)</div>
+              </div>
+            </li>
+            <li>
+              <div class="product">
+                <img
+                  class="product-image"
+                  src="images/kurti3.jpg"
+                  alt="product"
+                />
+                <div class="product-name">
+                  <a href="product.html">Kurti</a>
+                </div>
+                <div class="product-brand">Soch</div>
+                <div class="product-price">$59</div>
+                <div class="product-rating">4.5 Stars (40 Reviews)</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </main>
+      S
+      <footer class="footer">
+        All right reserved.
+      </footer>
+    </div>
+    <script>
+      function openMenu() {
+        document.querySelector(".sidebar").classList.add("open");
+      }
+      function closeMenu() {
+        document.querySelector(".sidebar").classList.remove("open");
+      }
+    </script>
+  </body>
+</html>
